@@ -1,0 +1,32 @@
+# Read configuration files from
+#   1. system git configuration: /etc/gitconfig
+#   2. user git configuration: ~/.gitconfig
+#   3. project git configuration: {PROJECT DIR}/.git/config
+
+[user]
+	name = Kwangil Cho
+	email = kwangilcho@hanyang.ac.kr
+[core]
+	editor = vim
+	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	excludesfile = ~/.gitignore
+[push]
+	default = matching
+[color]
+	ui = auto
+[color "branch"]
+	current = yellow bold
+	local = green bold
+	remote = cyan bold
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+[github]
+	user = kwangilcho
