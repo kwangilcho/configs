@@ -92,3 +92,15 @@ set ts=4
 set hlsearch
 set ignorecase
 set et
+
+" Templates
+if has ("autocmd")
+    augroup templates
+        autocmd BufNewFile *.go 0r ~/.vim/templates/skeleton.go
+        autocmd BufNewFile *.html 0r ~/.vim/templates/skeleton.html
+    augroup END
+endif
+
+" Tab size for each filetype
+autocmd FileType html setlocal shiftwidth=2 tabstop=2
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
