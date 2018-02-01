@@ -1,0 +1,10 @@
+[/]
+foreground-color='rgb(131,148,150)'
+visible-name='kwangilcho'
+palette=['rgb(37,31,31)', 'rgb(235,69,9)', 'rgb(148,231,107)', 'rgb(255,172,24)', 'rgb(70,174,222)', 'rgb(227,44,87)', 'rgb(214,219,172)', 'rgb(239,239,239)', 'rgb(94,94,94)', 'rgb(235,69,9)', 'rgb(149,231,107)', 'rgb(255,172,24)', 'rgb(70,174,222)', 'rgb(227,44,87)', 'rgb(214,219,172)', 'rgb(239,239,239)']
+cursor-shape='ibeam'
+use-system-font=false
+use-theme-colors=false
+font='Inconsolata 12'
+use-theme-transparency=false
+background-color='rgb(0,43,54)'
