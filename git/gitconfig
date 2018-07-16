@@ -5,7 +5,7 @@
 
 [user]
 	name = Kwangil Cho
-	email = kwangilcho@hanyang.ac.kr
+	email = kwangil.steve.cho@gmail.com
 [core]
 	editor = vim
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
